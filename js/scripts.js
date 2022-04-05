@@ -1,8 +1,5 @@
 $(document).ready(function() {
     $("#formOne").submit(function(event) {
-
-      
-
       event.preventDefault();
       const suckerInput = $("input#sucker").val();
       const creditInput= $("input#credit").val();
